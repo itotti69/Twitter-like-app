@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>位置情報サービス</title>
+</head>
+
+<body>
+  <button id="locate-now">位置情報取得</button><br />
+  <!-- エラーメッセージ -->
+  <p id="message"></p>
+  <!-- 緯度表示 -->
+  <p id="latitude" target="_blank"></p><br>
+  <!-- 経度表示 -->
+  <p id="longitude" target="_blank"></p>
+  <script type="text/javascript" src="js/location.js"></script>
+  <!-- 位置情報付与について、Safariでの位置情報取得はうまくいかないが、
+    Google Chromeでの取得については成功を確認済み -->
+  <!-- 位置情報機能参考Webサイト　　「MDN Web Docs」　位置情報API
+  URL：　https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API
+  閲覧日：2022年2月１日 -->
+</body>
+
+</html>

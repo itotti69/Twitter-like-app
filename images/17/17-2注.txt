@@ -1,0 +1,4 @@
+※Safariだと位置情報の取得に失敗します。Google Chromeで正常に取得できることは確認しました。画像はGoogle Chromeの画面となっています。使っているAPIは、Geolocation_APIです。
+　位置情報機能参考Webサイト：　　「MDN Web Docs」　位置情報API
+  URL：　https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API
+  閲覧日：2022年2月１日

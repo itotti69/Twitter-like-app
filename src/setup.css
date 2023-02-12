@@ -1,0 +1,221 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: red;
+}
+
+body {
+    font-size: 30px;
+}
+
+.plus {
+    margin-left: 350px;
+    font-size: 60px;
+}
+
+.plus:before {
+    color: rgb(0, 204, 255);
+    font-size: 60px;
+}
+
+.image_box{
+    width: 1030px;
+    height: 630px;
+}
+
+.image_box img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.name_box {
+    display: flex;
+}
+
+.header_image{
+    width: 300px;
+    height: 100px;
+}
+
+.header_image img{
+    width:300px;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.icon_image{
+    width: 120px;
+    height: 120px;
+}
+
+.icon_image img{
+    /* width:auto; */
+    width: 120px;
+    height:auto;
+    /* max-width:100%; */
+    max-height:100%;
+    border-radius: 50%;
+}
+
+.follow_button_before {
+    border-radius : 5%;         
+    font-size     : 4pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 12px;   
+    background    : #fafafa;     
+    color         : #fafafa;     
+    transition    : .3s;         
+}
+
+.follow_button_after {
+    border-radius : 5%;         
+    font-size     : 4pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 12px;   
+    background    : #1bb6f3;     
+    color         : #1bb6f3;     
+    transition    : .3s;         
+}
+
+.heart {
+    border-radius : 100%;          /* 角丸       */
+    font-size     : 2pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+}
+
+.heart-plus {
+    border-radius : 5%;         
+    font-size     : 4pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 12px;   
+    background    : #f31bab;     
+    color         : #f31bab;     
+    transition    : .3s;        
+    box-shadow    : 6px 6px 3px #666666;  
+    border        : 2px solid #000066;    
+}
+
+.retweet-off {
+    border-radius : 100%;          
+    font-size     : 2pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 12px;   
+    background    : #ffffff;     
+    color         : #ffffff;     
+    transition    : .3s;         
+}
+
+.retweet-on {
+    border-radius : 5%;          
+    font-size     : 4pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 12px;  
+    background    : #40ee1e;     
+    color         : #40ee1e;        
+    transition    : .3s;         
+    box-shadow    : 6px 6px 3px #666666;  
+    border        : 2px solid #000066;    
+}
+
+.private-off {
+    border-radius : 50%;          
+    font-size     : 2pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 24px;   
+    background    : #ffffff;     
+    color         : #ffffff;     
+    transition    : .3s;         
+}
+
+.private-on {
+    border-radius : 50%;          
+    font-size     : 4pt;        
+    text-align    : center;      
+    cursor        : pointer;     
+    padding       : 12px 24px;  
+    background    : #13cf62;     
+    color         : #13cf62;        
+    transition    : .3s;         
+}
+
+.user:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f406';
+    font-weight: 900;
+}
+
+.retweet_box_inside {
+    background-color: rgba(221, 216, 216, 0.918);
+}
+
+.retweet_box_outside {
+    background-color: rgba(183, 253, 250, 0.918);
+}
+
+.official_on {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    background:url('/official.jpg');
+}
+
+.user {
+    margin-right: 30px;
+}
+
+.output-button {
+    text-align: center;
+    margin: 30px;
+    padding: 10px 30px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding:12px 62px;
+    transform: skew(-15deg);
+    color: #fff;
+    border-radius: 2;
+    background-image: linear-gradient(90deg, #51f5ab 0%, #00e0fd 100%);
+    box-shadow: 4px 10px rgba(0, 0, 0, .1);
+    text-decoration:none;
+    overflow: hidden;
+  }
+  
+  button:before {
+    position: absolute;
+    top: 0;
+    left: 27px;
+    width: 150%;
+    height: 500%;
+    content: '';
+    transition: all .5s ease-in-out;
+    transform: translateX(-98%) translateY(-70%) rotate(135deg);
+  }
+  
+  button:hover{
+    box-shadow: 0 10px 19px rgba(0, 0, 0, .4);
+    background: linear-gradient(to right, #fe40de 0%, #fee140 100%);
+  }
+  
+  
